@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class AddGradeAndBirthdateToStudents < ActiveRecord::Migration[5.1]
 
     def change
@@ -5,4 +6,12 @@ class AddGradeAndBirthdateToStudents < ActiveRecord::Migration[5.1]
         add_column :students, :birthdate, :string
     end 
 
+=======
+class AddGradeAndBirthdateToStudents < ActiveRecord::Migration[5.2]
+  
+  
+  
+  
+  
+>>>>>>> 705a3b57ac7feda01bb18e85be3eac4f41055cdf
 end 
